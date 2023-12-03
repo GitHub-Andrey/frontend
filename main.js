@@ -6,7 +6,7 @@ const myImage = document.querySelector('.logo');
 
 /* Функция для смены картинки при клике по ней */
 
-myImage.onclick = function () {
+myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
 
     if (mySrc == "images/1.jpg") {
