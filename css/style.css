@@ -45,3 +45,12 @@ p {
 .navi {
     list-style-type: none;
 }
+
+li.special {
+    font-weight: bold;
+    color: orangered;
+}
+
+a:hover {
+    text-decoration: none;
+}
