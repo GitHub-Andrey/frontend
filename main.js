@@ -14,7 +14,7 @@ myImage.onclick = () => {
     } else {
         myImage.setAttribute("src", "images/1.jpg");
     }
-};
+}
 
 
 /* СОЗДАНИЕ ПРИВЕТСТВИЯ ДЛЯ КАЖДОГО ПОЛЬЗОВАТЕЛЯ */

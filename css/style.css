@@ -62,3 +62,8 @@ a:hover {
     text-decoration: none;
 }
 
+@media (max-width: 868px) {
+    body {
+        background-color: aqua;
+    }
+}
