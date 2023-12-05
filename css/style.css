@@ -51,6 +51,10 @@ li.special {
     color: orangered;
 }
 
+a {
+    font-weight: bold;
+}
+
 a:hover {
     text-decoration: none;
 }
