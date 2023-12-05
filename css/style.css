@@ -30,6 +30,9 @@ body {
 h1 {
     text-align: center;
     padding: 20px 0;
+    color: red;
+    background-color: beige;
+    padding: 5px;
 }
 
 p {
@@ -58,3 +61,4 @@ a {
 a:hover {
     text-decoration: none;
 }
+
