@@ -13,15 +13,6 @@ body {
     border: 5px solid black;
 }
 
-/*
-.menu-container {
-    display: flex;
-    width: 30%;
-    margin: 0 auto;
-    column-gap: 3em;
-    padding-bottom: 50px;
-}
-*/
 
 .main-container {
     padding: 50px;
@@ -45,6 +36,11 @@ p {
     margin: 0 auto;
 }
 
+
+/* Задаю стили для списка навигации */
+/*-------------------------------------------------------------------------- */
+
+
 .navi {
     list-style-type: none;
 }
@@ -54,6 +50,11 @@ li.special {
     color: orangered;
 }
 
+
+/* Меняю стили по умолчанию у ссылок */
+/*-------------------------------------------------------------------------- */
+
+
 a {
     font-weight: bold;
 }
@@ -61,6 +62,11 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+
+/* Формирую медиазапросы для различных размеров экрана браузера */
+/*-------------------------------------------------------------------------- */
+
 
 @media (max-width: 868px) {
     body {
