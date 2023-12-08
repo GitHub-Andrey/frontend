@@ -62,6 +62,14 @@ p::first-letter {
 
 .navi {
     list-style-type: none;
+    display: flex;
+}
+
+.navi a {
+    /*    background-color: bisque;*/
+    padding: 1em 2em;
+    display: inline-block;
+    margin: -2em 1em 2em 1em;
 }
 
 li.special {
