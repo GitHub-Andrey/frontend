@@ -1,48 +1,47 @@
 html {
-    /* Размер базового шрифта */
-    font-size: 16px;
+	/*     Размер базового шрифта */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 
-    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    width: 800px;
-    margin: 0 auto;
-    background-color: antiquewhite;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
+	/*    width: 800px;*/
+	background-color: antiquewhite;
+	border: 5px solid black;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
 }
 
-
 .main-container {
-    padding: 50px;
+	padding: 50px;
 }
 
 h1 {
-    text-align: center;
-    padding: 20px 0;
-    color: red;
-    background-color: beige;
-    padding: 5px;
+	background-color: beige;
+	color: red;
+	/*	padding: 20px 0;*/
+	padding: 5px;
+	text-align: center;
 }
 
 h2 {
-    text-align: center;
+	text-align: center;
 }
 
 h2:hover {
-    opacity: 0.3;
+	opacity: 0.3;
 }
 
 p {
-    line-height: 2;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
+	line-height: 2;
 }
 
 p::first-letter {
-    color: red;
-    font-weight: bold;
-    font-size: 1.2rem;
+	color: red;
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 
@@ -51,8 +50,9 @@ p::first-letter {
 
 
 .logo {
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
 }
 
 
@@ -61,20 +61,23 @@ p::first-letter {
 
 
 .navi {
-    list-style-type: none;
-    display: flex;
+	display: flex;
+}
+
+nav ul {
+	list-style-type: none;
 }
 
 .navi a {
-    /*    background-color: bisque;*/
-    padding: 1em 2em;
-    display: inline-block;
-    margin: -2em 1em 2em 1em;
+	/*    background-color: bisque;*/
+	display: inline-block;
+	margin: -2em 1em 2em 1em;
+	padding: 1em 2em;
 }
 
-li.special {
-    font-weight: bold;
-    color: orangered;
+.special {
+	color: orangered;
+	font-weight: bold;
 }
 
 
@@ -83,17 +86,17 @@ li.special {
 
 
 a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 a:hover {
-    text-decoration: none;
-    color: green;
+	color: green;
+	text-decoration: none;
 }
 
 
-button.scale:hover {
-    scale: 1.5;
+button:hover {
+	scale: 1.5
 }
 
 
@@ -103,7 +106,7 @@ button.scale:hover {
 
 
 @media (max-width: 868px) {
-    body {
-        background-color: aqua;
-    }
+	body {
+		background-color: aqua;
+	}
 }
